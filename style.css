@@ -122,9 +122,8 @@ body {
 /* watch section */
 .watch-section {
     width: 80%;
-    margin:0 auto;
-    margin-bottom: 50px;
-}
+    margin: 0 auto;
+ }
 
 .watch-img {
     background-image: url('images/watch.png');
@@ -155,3 +154,67 @@ body {
     font-size: 18px;
     border: 0;
 }
+
+/* footer item */
+.footer-item {
+    display: flex;
+    background: #151414;
+     margin: 100px auto;
+
+
+}
+
+.footer-column {
+    width: 400px;
+    margin:0 auto;
+    padding: 100px;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+.social-icon ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.email,
+.phone {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    background: #151414;
+    border: 1px solid #fff;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+input[type="submit"] {
+    padding: 10px 25px;
+    border-radius:5px;
+    border: 0;
+}
+
+/* THE END */
