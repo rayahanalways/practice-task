@@ -105,14 +105,14 @@ body {
 .my-plans-container {
     display: flex;
     justify-content: space-around;
-     padding: 0 100px;
-     margin-bottom: 130px;
+    padding: 0 100px;
+    margin-bottom: 130px;
 }
 
 
 .web-title {
     color: #151414;
-     font-size: 20px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 0;
     text-align: center;
@@ -120,4 +120,38 @@ body {
 }
 
 /* watch section */
- 
+.watch-section {
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+
+.watch-img {
+    background-image: url('images/watch.png');
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.watch-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 30px;
+}
+
+.watch-title {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    width: 400px;
+}
+
+.watch-button {
+    color: #F15B22;
+    padding: 12px 20px;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 0;
+}
