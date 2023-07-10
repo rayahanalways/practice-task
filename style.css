@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding:0 80px 30px  80px;
+    padding: 0 80px 30px 80px;
 
 }
 
@@ -21,7 +21,7 @@ body {
 .banner-title {
     color: #151414;
     text-align: right;
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 700;
 }
 
@@ -33,11 +33,91 @@ body {
 
 .banner-button {
     color: #FFF;
-     font-size: 20px;
+    font-size: 20px;
     font-weight: 600;
-    padding: 20px;
-    background: border-radius: 5px;
+    padding: 15px;
+    border-radius: 5px;
     background: #F15B22;
     border-radius: 5px;
     border: 0;
 }
+
+.img-background {
+    width: 400px;
+    height: 400px;
+    background: #FCDED3;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.girl-photo {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 400px;
+
+
+
+}
+
+.fail-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    margin: 100px 30px 100px 30px;
+}
+
+.failur-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.failur-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;
+    margin-bottom: 16px;
+}
+
+.failur-item-list a {
+    text-decoration: none;
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.my-plans {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.my-plans-container {
+    display: flex;
+    justify-content: space-around;
+     padding: 0 100px;
+     margin-bottom: 130px;
+}
+
+
+.web-title {
+    color: #151414;
+     font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+/* watch section */
+ 
